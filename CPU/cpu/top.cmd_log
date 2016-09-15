@@ -1,0 +1,482 @@
+xst -intstyle ise -ifn "C:/Users/lab408/Desktop/lpap_test/newhw/cpu/top.xst" -ofn "C:/Users/lab408/Desktop/lpap_test/newhw/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/lab408/Desktop/lpap_test/newhw/cpu/top.xst" -ofn "C:/Users/lab408/Desktop/lpap_test/newhw/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/lab408/Desktop/lpap_test/newhw/cpu/top.xst" -ofn "C:/Users/lab408/Desktop/lpap_test/newhw/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/lab408/Desktop/lpap_test/newhw/cpu/top.xst" -ofn "C:/Users/lab408/Desktop/lpap_test/newhw/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.xst" -ofn "C:/Users/ecl/Dropbox/2014 Courses/LPAP/lab4/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx4-cpg196-2 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/HSIN/Desktop/LAB3/cpu/top.xst" -ofn "C:/Users/HSIN/Desktop/LAB3/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+xst -intstyle ise -ifn "C:/Users/HSIN/Desktop/LAB3/cpu/top.xst" -ofn "C:/Users/HSIN/Desktop/LAB3/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/HSIN/Desktop/LAB3/cpu/top.xst" -ofn "C:/Users/HSIN/Desktop/LAB3/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+xst -intstyle ise -ifn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.xst" -ofn "C:/Users/USER/Desktop/CoLab3/hw3_cpu/cpu/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 

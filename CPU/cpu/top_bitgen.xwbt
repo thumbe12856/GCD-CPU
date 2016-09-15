@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\USER\Desktop\CoLab3\hw3_cpu\cpu\top.ncd
+OUTFILE=C:\Users\USER\Desktop\CoLab3\hw3_cpu\cpu\top.bit
+FAMILY=Artix7
+PART=xc7a100t-2csg324
+WORKINGDIR=C:\Users\USER\Desktop\CoLab3\hw3_cpu\cpu
+LICENSE=WebPack
+USER_INFO=211038949_0_0_455
